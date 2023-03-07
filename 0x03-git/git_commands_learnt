@@ -1,0 +1,24 @@
+!#/bin/bash
+
+echo -e "THis bash script contains all git commands learnt during 0x03_git"
+sleep 5
+echo -e "The first command is git clone\n this command clones all contents of a repository to a local repository"
+
+sleep 5
+
+echo -e "Next command is git log\nThe command allows a user to view all commits done and their hashes"
+
+sleep 5
+
+echo -e "Next is git revert <commit hash>\n The command allows a user to revert a commit as defined by its hash"
+
+sleep 5 
+
+echo -e "Next is git checkout -b <branch name>\nIt allows a user to create a branch from the master branch"
+
+sleep 5
+echo -e "Next is git pull\n it allows a user to pull all changes made from a online repository"
+
+echo -e "Next is git status.. shows all staged changes"
+
+sleep 5 "Finally is "
