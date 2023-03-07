@@ -1,0 +1,47 @@
+#!/bin/bash
+
+echo
+
+echo -e "Script will automate my git ALX project"
+sleep 10
+
+echo -e "Creating dir(s) bash c and js"
+
+sleep 10
+
+mkdir bash c js
+
+sleep 10
+
+echo -e "Dirs created successfully"
+
+sleep 10 
+
+echo -e "Creating empty files"
+
+sleep 10
+
+touch c/c_is_fun.c js/main.js js/index.js bash/alx bash/school
+
+echo -e "Files created successfully"
+ 
+sleep 10
+
+echo -e "Writing into files"
+
+sleep 10
+
+echo "#!/bin/bash">>bash/alx
+echo "echo \"ALX\"\n ">>bash/alx
+
+echo "#!\bin\bash">>bash\school
+echo "echo \"School\"\n ">>bash\school
+
+echo "Letting git do the work now"
+sleep 10
+
+git add --all
+
+git commit -m "Starting to code today, so cool"
+
+git push
